@@ -1,0 +1,106 @@
+
+.banner-part{
+    background: url(../../Assets/Images/hero-banner-find-staff.png) no-repeat;
+    position: relative;
+    display: flex;
+    min-height: 560px;
+    background-size: cover;
+}
+
+.salary-content-part{
+    max-width: 900px;
+    text-align: center;
+    color: white;
+}
+.salary-content-part h1{
+    font-size: 45px;
+    margin-bottom: 24px;
+    line-height: 55px;
+    color: white;
+    font-weight: 700;
+}
+
+.salary-content-part p{
+    margin-bottom: 20px;
+}
+/* form part */
+.explore-sb{
+    background-color: #eff0f0;
+    padding-bottom: 88px;
+}
+.explore-form{
+    width: 550px;
+    /* background: #fff; */
+    border-radius: 16px;
+    padding: 48px 0px 24px 0px;
+    margin-top: -210px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(62, 53, 82, 0.10);
+}
+
+.mform{
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.mform h3{
+    color: #B08E98;
+}
+
+.hire{
+    padding: 19px 100px;
+    border-radius: 5px;
+    border: #EFF0F0;
+}
+/* radio btns */
+/* Style for the radio button */
+input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  /* Style for the selected radio button */
+  input[type="radio"]:checked + label {
+    color: blue; /* Change to desired color */
+  }
+  
+  /* Style for the label */
+  label {
+    margin-right: 16px;
+    cursor: pointer;
+  }
+
+  /* -------------------------Popular Salary Search------------------------- */
+
+  .similar-job-titles{
+    padding: 88px 0px;
+  }
+
+  .similar-job-titles h2{
+    font-size: 36px;
+    margin-bottom: 24px;
+    line-height: 46px;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .all-jobs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .jobs{
+    color: #11394d;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: #eff0f0;
+    border-radius: 32px;
+    padding: 8px 16px;
+  }

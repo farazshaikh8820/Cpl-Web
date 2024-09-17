@@ -1,0 +1,113 @@
+
+
+.mainjobsection{
+    padding: 80px 0px;
+    background-color: #eff0f0;
+}
+
+.mainjob{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 40px 0px;
+}
+
+.heading-part-right{
+    padding: 8px;
+    background: #EBEBEB;
+    color: #3e3552;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 14px;
+   display: flex;
+   align-items: center;
+}
+
+.heading-part-left h1{
+    font-weight: 700;
+}
+
+.heading-part-right a{
+    text-decoration: none;
+    color: #3e3552;
+}
+
+/* Cards part here */
+
+.ljcard{
+    box-shadow: 0px 0px 8px 0px rgba(62, 53, 82, 0.16);
+    border-radius: 8px;
+    flex: 0 0 384px;
+    background-color: white;
+    padding: 24px;
+    flex-direction: column;
+    display: flex;
+    min-height: 235px;
+    color: #3e3552;
+    border: 1px solid #EFF0F0;
+    position: relative;
+}
+
+.ljcard h3{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 16px;
+
+}
+/* lj card top */
+.job-info{
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.job-info span{
+    background-color: #eff0f0;
+    border-radius: 8px;
+    padding: 0px 8px;
+    text-align: center;
+    display: inline-flex;
+    margin-bottom: 0;
+    align-items: center;
+    column-gap: 10px;
+    height: 30px;
+}
+
+/* lj-card bottom */
+
+.lj-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 0;
+    margin-top: auto;
+}
+
+.posted-new{
+    border-radius: 100px;
+    background: #E8EEEC;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 140%;
+    color: #417565;
+    width: fit-content;
+    margin: 16px 0;
+}
+
+.posted-on{
+    opacity: 0.5;
+    line-height: 1;
+    font-size: 12px;
+}
+
+.mbtn-bottom{
+    background-color: white;
+    color: #3e3552;
+    border: 1px solid #3e3552;
+    height: 42px;
+    line-height: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    
+}

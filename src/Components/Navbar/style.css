@@ -1,0 +1,57 @@
+
+
+
+.menu-open{
+    height: 600px;
+    width: 1507px;
+    /* background-color: #242326; */
+}
+/* Left side start here */
+.left-side{
+    height: 550px;
+    background-color: #242326;
+}
+.hamburger-content{
+    padding: 25px 0px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+    color: white;
+    align-items: center;
+}
+.hamburger-btn{
+    width: 200px;
+}
+.hamburger-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.left-hm-ul{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.left-hm-ul li{
+    font-weight: 550;
+    font-size: 20px;
+}
+.left-hm-ul li:hover{
+    font-weight: 700;
+    padding-left: 20px;
+    transition: all 0.5s ease-in-out;
+}
+/* Med Side starts here.......... */
+.med-side{
+    height: 550px;
+    background-color:#312E35;
+}
+/* Right side starts here */
+.right-side{
+    background-color: #434147;
+    height: 550px;
+}
+

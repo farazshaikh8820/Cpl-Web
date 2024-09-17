@@ -1,0 +1,115 @@
+
+.banner-part{
+    background: url(../../Assets/Images/sc-banner-bg.png) no-repeat;
+    position: relative;
+    display: flex;
+    min-height: 560px;
+    background-size: cover;
+}
+
+.salary-content-part{
+    max-width: 900px;
+    text-align: center;
+    color: white;
+}
+.salary-content-part h1{
+    font-size: 45px;
+    margin-bottom: 24px;
+    line-height: 55px;
+    color: white;
+    font-weight: 700;
+}
+
+.salary-content-part p{
+    margin-bottom: 20px;
+}
+/* form part */
+
+.explore-form{
+    margin-top: -100px;
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
+}
+
+.mform{
+    flex: 0 0 100%;
+    min-height: 160px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #eff0f0;
+    border-left: 1px solid #dcdcdc;
+    padding: 40px;
+    align-items: baseline;
+}
+
+.explore{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.explore b{
+    font-weight: 700;
+}
+
+.Feild-part{
+    display: flex;
+    gap: 20px;
+}
+.Job{
+    padding: 0px 100px;
+    border-radius: 5px;
+}
+/* radio btns */
+/* Style for the radio button */
+input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  /* Style for the selected radio button */
+  input[type="radio"]:checked + label {
+    color: blue; /* Change to desired color */
+  }
+  
+  /* Style for the label */
+  label {
+    margin-right: 16px;
+    cursor: pointer;
+  }
+
+  /* -------------------------Popular Salary Search------------------------- */
+
+  .similar-job-titles{
+    padding: 88px 0px;
+  }
+
+  .similar-job-titles h2{
+    font-size: 36px;
+    margin-bottom: 24px;
+    line-height: 46px;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .all-jobs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .jobs{
+    color: #11394d;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: #eff0f0;
+    border-radius: 32px;
+    padding: 8px 16px;
+  }

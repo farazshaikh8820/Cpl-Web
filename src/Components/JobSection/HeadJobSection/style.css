@@ -1,0 +1,60 @@
+
+.job-search-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.HeadJobBanner {
+    min-height: 360px;
+    text-align: center;
+    padding: 48px 0;
+    color: white;
+    background: url('../../../Assets/Images/jobseekers-banner.png') no-repeat center center;
+    background-size: cover;
+}
+
+.head-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.head-container h1 {
+    font-size: 45px;
+    line-height: 130%;
+    font-weight: 700;
+}
+
+.head-container p {
+    margin: auto;
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 150%;
+    max-width: 600px;
+}
+
+.job-search-feild {
+    background-color: white;
+    width: fit-content;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-right: 5px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+#job-Search {
+    height: 60px;
+    width: 300px;
+    padding-right: 0px;
+    padding-left: 21px;
+    border-right: 1px solid black;
+}
+
+#job-title {
+    height: 60px;
+    width: 300px;
+    padding-right: 0px;
+    padding-left: 21px;
+    /* border-right: 1px solid black; */
+}

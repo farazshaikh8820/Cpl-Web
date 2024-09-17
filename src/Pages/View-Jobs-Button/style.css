@@ -1,0 +1,63 @@
+
+/*  */
+.Job_Detail_Page{
+    padding: 100px 0;
+    position: relative;
+}
+
+.Job_Detail_Page::before{
+    content: "";
+    background: linear-gradient(130deg, #3e3552, #733d6b);
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    top: 0;
+    z-index: -1;
+}
+
+/* ------------------------------Back to job button part------------------------------------- */
+
+.back-to-jobs{
+    color: #fff;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.back-to-jobs:hover{
+    background: hsla(0, 0%, 100%, .08);
+}
+
+.back-to-jobs::before{
+    /* content: "\e901"; */
+    color: #fff;
+    font-family: mmkicons-jobs !important;
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+/* ----------------------------Job Card details-------------------------------------- */
+
+.Job_Card_Detail{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(62, 53, 82, .1);
+    border: 0;
+    padding: 50px 40px;
+    margin-top: 10px;
+    overflow: visible;
+}
+
+.Job_Card_Detail{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(62, 53, 82, .1);
+    border: 0;
+    padding: 50px 40px;
+    margin-top: 10px;
+    overflow: visible;
+}

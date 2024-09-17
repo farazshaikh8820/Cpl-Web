@@ -1,0 +1,74 @@
+
+.calc-employer{
+    padding: 90px 0px;
+}
+.calc-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.calc-card {
+    flex: 0 0 400px;
+    border-radius: 16px;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    background: #242326;
+    transition: all 0.5s ease-in;
+    color: white;
+}
+
+.calc-card h2 {
+    /* width: 200px; */
+    font-weight: 700;
+    padding-top: 20px;
+
+}
+
+.calc-card p {
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: left;
+    width: 347px;
+
+}
+
+.calc-card button {
+    background-color: #d83f63;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Free consultation here */
+
+.ArrFreeConsultans{
+    padding: 90px 0px;
+    color: white;
+    background-color: #515BA3;
+}
+
+.ArrFreeContent{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ArrFreeContent h2{
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+.ArrFreebtn{
+    font-size: 18px;
+    padding: 0 32px;
+    height: 56px;
+    line-height: 56px;
+    background-color: white;
+    color: #515BA3;
+    border-radius: 10px;
+    font-weight: 700;
+}

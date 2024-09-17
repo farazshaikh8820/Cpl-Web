@@ -1,0 +1,22 @@
+
+.helpingyourbuisness{
+    padding: 90px 0px;
+}
+
+.helping-content{
+    padding: 30px 0px 0px 0px;
+}
+
+.helping-content h1{
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.helping-content ul{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    list-style: disc;
+    font-size: 22px;
+}

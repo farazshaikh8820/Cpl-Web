@@ -1,0 +1,15 @@
+
+.view-head h1{
+    font-size: 36px;
+    margin-bottom: 24px;
+    line-height: 46px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+}

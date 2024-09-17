@@ -1,0 +1,62 @@
+
+
+/*                   slicky                     */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+/*                   Heading                    */
+.Carousel{
+    padding: 90px 0px;
+    background-color: #EFF0F0;
+}
+
+.MuiContainer-root.MuiContainer-maxWidthLg{
+    width: 630px !important;
+    height: 204px !important;
+    background-color: white !important;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.Carousel-heading{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 48px auto;
+    font: bold;
+}
+
+.Carousel-heading .h2{
+    font-weight: 700;
+}
+.Carousel-heading .h2 span{
+    color: #E37620;
+}
+
+/*                 slider                        */
+.slick-track{
+    text-align: center !important;
+}
+/*                 slider   box                  */
+.MuiContainer-root.MuiContainer-maxWidthLg{
+    width: 922px !important;
+    height: 360px !important;
+    background-color: white !important;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+}
+.slick-track p{
+    color: #3E3552;
+    padding-bottom: 10px;
+}
+.slick-track h3{
+    font: bold;
+    padding-bottom: 10px;
+}
+/*                  */

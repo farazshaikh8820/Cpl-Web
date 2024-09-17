@@ -1,0 +1,33 @@
+
+
+.Ceo{
+    background-color: #3E3552;
+}
+.ceo-speach-image{
+    display: flex;
+    padding: 60px;
+   gap: 50px;
+}
+.ceo-image{
+    width: 800px;
+    height: 514px;
+}
+.ceo-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Ceo-speach{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.Ceo-speach span{
+    width: fit-content;
+}
+.Ceo-speach p{
+    color: white;
+    padding-bottom: 20px;
+}

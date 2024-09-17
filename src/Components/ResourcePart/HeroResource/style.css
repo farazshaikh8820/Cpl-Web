@@ -1,0 +1,62 @@
+
+.innerHero{
+    background: #3e3552 url(../../../Assets/Images/logo-bg.png) no-repeat right bottom;
+    padding: 90px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.innerHero h1{
+    font-size: 45px;
+    margin-bottom: 24px;
+    line-height: 55px;
+    font-weight: 700;
+    color: white;
+    max-width: 50%;
+}
+
+.innerHero p{
+    color: white;
+    max-width: 50%;
+    font-weight: 500;
+}
+
+/* articale part here */
+
+.articale-wrapper{
+    padding: 20px 0;
+    background-color:#eff0f0;
+    border-radius: 0;
+    margin: 0;
+}
+
+#topic{
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#Content-Type{
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.template-btn{
+    border: 1px solid #d83f63;
+    color: #d83f63;
+    padding: 0 32px;
+    border-radius: 5px;
+    height: 55px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.template-btn:hover{
+    background-color: #d83f63;
+    color: white;
+}

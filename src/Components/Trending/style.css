@@ -1,0 +1,185 @@
+.section {
+    padding-top: 90px;
+}
+
+/*                                                                                           */
+.Trending-Content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 48px auto;
+}
+
+.Trending-Content h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.card-wrap {
+    width: 100%;
+}
+
+.ta-card-lg {
+    position: relative;
+    overflow: hidden;
+    height: 360px;
+    transition: all 0.5s ease-in;
+}
+
+.ta-card.ta-card-lg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(36, 35, 38, 0) 0%, #242326 100%);
+}
+
+.ta-card.ta-card-lg:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: rgb(216 63 99 / 54%);
+    transition: all 0.2s ease-in;
+}
+
+.ta-card {
+    border-radius: 16px;
+    position: relative;
+    height: 424px;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    content: '';
+}
+
+.ta-card-lg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ta-card-content {
+    position: absolute;
+    width: 100%;
+    padding: 24px;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 706px;
+}
+
+.ta-tag {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.ta-card-content p {
+    margin-bottom: 20px;
+    color: inherit;
+    margin-top: 0;
+    font-size: 18px;
+
+}
+
+/* Small image starts here */
+.ta-card-content-small-img {
+    width: 420px;
+    position: absolute;
+    width: 100%;
+    padding: 24px;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.ta-card .ta-card-sm {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to bottom, transparent, #3E3552);
+    transition: background 0.5s ease-in;
+}
+.ta-card.ta-card-sm::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(36, 35, 38, 0) 0%, #242326 100%);
+}
+.ta-card.ta-card-sm:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: rgb(216 63 99 / 54%);
+    transition: all 0.5s ease-in;
+
+}
+
+.ta-card-sm img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Small image ends here */
+/* Image Right starts here */
+.sg-calc-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.sg-calc-card {
+    flex: 0 0 400px;
+    height: 870px;
+    border-radius: 16px;
+    /* background: var(--dgrey) url(../img/job-sgcalc-bg.png) no-repeat center bottom; */
+    background-size: contain;
+    /* padding: 45px; */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background: #242326;
+    transition: all 0.5s ease-in;
+    color: white;
+}
+
+.sg-calc-card h2 {
+    width: 200px;
+    font-weight: 700;
+    padding-top: 20px;
+
+}
+
+.sg-calc-card p {
+    margin-bottom: 20px;
+    font-weight: 600;
+    width: 270px;
+
+}
+
+.sg-calc-card button {
+    background-color: #d83f63;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Image Right ends here */

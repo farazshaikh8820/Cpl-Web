@@ -1,0 +1,73 @@
+
+/* background color */
+.footer{
+    background-color:#3e383f ;
+    color: white;
+}
+/* go beyond  */
+.go-beyond{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* go beyond text */
+.go-beyond-text{
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 700;
+    /* margin-bottom: 24px; */
+    display: block;
+    font: bold;
+}
+/* go beyond btns */
+.go-beyond-both-btns{
+    display: flex;
+    gap: 30px;
+}
+/* footer all- nav */
+.all-nav{
+    padding: 52px 0px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* footer main-nav */
+.main-nav{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0px;
+}
+/* Inside of main-nav nav-social */
+.nav-social{
+    width:fit-content;
+    display: flex;
+    gap: 20px;
+}
+.nav-social a{
+    color: white !important;
+}
+/* main-nav ends here */
+/* nav-items */
+
+.nav-items ul{
+    margin-top: 16px;
+}
+.nav-items ul li{
+    margin-bottom: 8px;
+}
+/* all nav ends here */
+/* Footer bottom starts here*/
+.footer-bottom{
+    padding: 30px 0px;
+}
+.copy-right{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+/* Footer bottom ends here*/
