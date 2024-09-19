@@ -12,6 +12,7 @@ import CompareSalary from './Pages/CompareSalary';
 import HireTalent from './Pages/Hire-Talent';
 import OurWork from './Pages/OurWork/';
 import ViewJobButton from './Pages/View-Jobs-Button';
+import Personal_Info from './Pages/Personal_info';
 
 // Navbar Routing ens
 
@@ -29,6 +30,7 @@ const App = () => {
         <Route path='/HireTalent' element={<HireTalent/>}/>
         <Route path='/OurWork' element={<OurWork/>}/>
         <Route path='/ViewJobButton' element={<ViewJobButton/>}/>
+        <Route path='/Personal_Info' element={<Personal_Info/>}/>
       </Routes>
     </Router>
       

@@ -15,6 +15,28 @@
     z-index: -1;
 }
 
+.container_viewJob{
+    width: 1000px;
+    /* max-width: 1200px; */
+    margin: auto;
+    /* width: 100%;  */
+    padding: 0;
+}
+
+.mbtn_view_Job{
+    font-size: 18px;
+    padding: 15px 32px;
+    height: 56px;
+    line-height: 56px;
+    color: white;
+    background-color: #d83f63;
+    border-radius: 10px;
+    font-weight: 700;
+    height: 42px;
+    line-height: 40px;
+    font-weight: 400;
+    text-decoration: none;
+}
 /* ------------------------------Back to job button part------------------------------------- */
 
 .back-to-jobs{
@@ -61,3 +83,115 @@
     margin-top: 10px;
     overflow: visible;
 }
+
+/* ----------------Posted at----------------------- */
+
+
+.Posted_at{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #958e98;
+}
+
+/* -----------------Head Part------------------------ */
+.head_part{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -40px 10px;
+    padding: 0 40px;
+    column-gap: 50px;
+    top: 0;
+    z-index: 100000;
+    background: #fff;
+    position: relative;
+}
+
+.Title_Content h2{
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.category_content{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.category_content span{
+    background-color: #eff0f0;
+    height: 32px;
+    padding: 4px 12px;
+    border-radius: 5px;
+    height: 28px;
+    padding: 4px 8px;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 8px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.Apply_Now_Button{
+    margin-top: 10px;
+}
+
+/* -----------------Head Part ended------------------------ */
+
+/* -----------------Main part------------------------------ */
+
+.Job_description h3{
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.Job_description  p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.Roles_Responsibility h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.Roles_Responsibility ul{
+    margin-bottom: 40px;
+}
+
+.Roles_Responsibility ul li{
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+.Skills_Exp h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.Skills_Exp ul{
+    margin-bottom: 40px;
+}
+
+.Skills_Exp ul li{
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+/* -----------------Main part ended------------------------ */
+
+/* -----------------Bottom part ------------------------ */
+
+.info p{
+    margin-bottom: 20px;
+}
+
+/* -----------------Bottom part ended------------------------ */
