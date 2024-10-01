@@ -95,9 +95,9 @@ const LatestArticale = () => {
         <div className='view-head'>
             <h1>Latest<span className='text-[#E37620]'> articles</span></h1>
         </div>
-        <div className='all-cards'>
+        <div className='all-cards-latest-articale'>
             {ArticaleCardData.map(articale =>(
-                <Card key={articale.id} style={{ width: '24rem' }}>
+                <Card className='la-card' key={articale.id}>
       <Card.Img variant="top" src={articale.imgSrc} />
 
       <Card.Body>

@@ -1,7 +1,8 @@
-.cards{
+.cards {
     padding-top: 20px;
 }
-.card-content{
+
+.card-content {
     height: 310px;
     padding: 20px;
     border: 1px solid black;
@@ -9,22 +10,34 @@
     border-radius: 15px;
     display: flex;
 }
-.card-content h3{
+
+.card-content h3 {
     text-align: center;
     font-weight: 900;
     font-size: 21px;
 }
-.card-content p{
+
+.card-content p {
     text-align: center;
 
 }
-.cards-btn{
+
+.cards-btn {
     padding: 10px;
     border: 1px solid;
     border-radius: 8px;
     margin: auto;
     display: flex;
 }
-.card-content:hover{
-    background: linear-gradient(180deg, rgba(216, 63, 99, 0) 10.42%, #D83F63 100%),  #3E3552;
+
+.card-content:hover {
+    background: linear-gradient(180deg, rgba(216, 63, 99, 0) 10.42%, #D83F63 100%), #3E3552;
+}
+
+@media only screen and (max-width: 768px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        width: 101%;
+    }
 }

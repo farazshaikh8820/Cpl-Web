@@ -1,3 +1,22 @@
+.mainNavbar {
+    /* width: 800px;
+    margin: auto; */
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mainNavbar h2 {
+    font-size: 60px;
+    line-height: 115%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .mainNavbar-button {
     display: inline-block;
     padding: 10px 20px;
@@ -5,8 +24,10 @@
     color: white;
     background-color: #d83f63;
     text-align: center;
-    text-decoration: none; /* Removes the underline */
-    border: none; /* Remove default border */
+    text-decoration: none;
+    /* Removes the underline */
+    border: none;
+    /* Remove default border */
     border-radius: 4px;
     align-items: center;
     display: flex;
@@ -14,9 +35,29 @@
 }
 
 .mainNavbar-button:hover {
-    background-color: #d83f63; /* Darker blue on hover */
+    background-color: #d83f63;
+    /* Darker blue on hover */
 }
 
 .mainNavbar-button:active {
-    background-color: #d83f63; /* Even darker blue when clicked */
+    background-color: #d83f63;
+    /* Even darker blue when clicked */
 }
+
+/* -------------------Mobile-View--------------------------------- */
+
+@media screen and (max-width:320px) {
+
+    .mainNavbar{
+        height: 400px;
+    }
+    .mainNavbar h2 {
+        font-size: 48px;
+    }
+
+    .mainNavbar-button {
+        font-size: 12px;
+    }
+}
+
+/* -------------------Mobile-View--------------------------------- */

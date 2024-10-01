@@ -26,7 +26,7 @@ const MainjobSection = () => {
                         </div>
                     </div>
                     {/* Head content ends */}
-                    <div className='all-cards'>
+                    <div className='job-all-cards'>
                         {/* Card-1 */}
                     <div className='ljcard ' onClick={handleJobDetail}>
                         <h3>Project Engineer - Equipment</h3>

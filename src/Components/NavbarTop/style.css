@@ -1,0 +1,19 @@
+
+.top-nav{
+    background-color: #3E3552;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+    z-index: 999;
+}
+
+.top-nav h6{
+    margin: 0px;
+
+}
+
+
+@media screen and (max-width: 320px){
+    
+}

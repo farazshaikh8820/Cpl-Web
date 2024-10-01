@@ -9,7 +9,7 @@
     margin: 0 auto 48px auto;
 }
 
-.Trending-Content h2{
+.Trending-Content h2 {
     font-size: 50px;
     font-weight: 800;
 }
@@ -108,6 +108,7 @@
     background: linear-gradient(to bottom, transparent, #3E3552);
     transition: background 0.5s ease-in;
 }
+
 .ta-card.ta-card-sm::before {
     content: "";
     position: absolute;
@@ -118,6 +119,7 @@
     z-index: 1;
     background: linear-gradient(to bottom, rgba(36, 35, 38, 0) 0%, #242326 100%);
 }
+
 .ta-card.ta-card-sm:hover::before {
     content: "";
     position: absolute;
@@ -138,6 +140,7 @@
 }
 
 /* Small image ends here */
+
 /* Image Right starts here */
 .sg-calc-content {
     display: flex;
@@ -181,5 +184,45 @@
     color: white;
     margin-bottom: 30px;
 }
-
 /* Image Right ends here */
+
+/* ------------------------Tablet view------------------------------------- */
+
+@media screen and (max-width: 768px) {
+    .main-row-trending {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-md-8{
+        flex: none !important;
+        width: 100% !important;
+    }
+    .col-md-6{
+        flex: none !important;
+        width: 100% !important;
+    }
+    .col-md-4{
+        flex: none !important;
+        width: 100% !important;
+        justify-content: center;
+        display: flex;
+/* overflow-x: hidden; */
+    }
+    /* -----------------calc----------- */
+}
+
+/* --------------------------------MOBILE VIEW---------------------------- */
+@media screen and (max-width:320px) {
+    .ta-card-content{
+        width: 295px;
+    }
+    .sg-calc-card{
+        gap: 0px;
+        height: 760px;
+    }
+    /* body{
+        overflow-x: hidden;
+    } */
+}
+/* --------------------------------MOBILE VIEW---------------------------- */

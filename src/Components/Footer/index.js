@@ -96,12 +96,14 @@ const Footer = () => {
             {/* All nav ends here */}
             {/* footer bottom part */}
             <div className='footer-bottom'>
-            <div className='flex justify-around '>
+            <div className='footer-bottom-content'>
                 <span className='copy-right'>@ Saanvi Nexus 2024</span>
                 <div>
-                    <h6 className='font-bold'>Legal</h6>
-                    <ul className='flex gap-10 px-0'>
-                        <li>Overview</li>
+                    <ul className='footer-btm-ul'>
+                        <li>
+                    <h6 className='legal'>Legal</h6>
+                            Overview
+                            </li>
                         <li>Privacy & Data</li>
                         <li>Manage your cookies</li>
                         <li>Terms of service</li>

@@ -15,8 +15,8 @@ const MainResource = () => {
                         </div>
                         {/* View-header ends */}
                         {/* View-content here */}
-                        <Row>
-                            <Col md={8}>
+                        <Row className='main-resource'>
+                            <Col md={8} className='main-resource'>
                                 <div className='feature-left'>
                                     <img src={LeftImg} alt='leftImg' />
                                     <div className='leftImg-content'>
@@ -26,9 +26,9 @@ const MainResource = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col md={4}>
+                            <Col md={4} className='main-resource'>
                                 <Row>
-                                    <Col md={12}>
+                                    <Col md={12} className='main-resource'>
                                         <div className='feature-Right-top'>
                                             <div className='top-img'>
                                           <h3>Time to hire next employee</h3>
@@ -36,7 +36,7 @@ const MainResource = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col md={12}>
+                                    <Col md={12} className='main-resource'>
                                        <div className='feature-Right-bottom'>
                                         <div className='bottom-img'>
                                             <img src={BottomRightImage} alt='bottom img'/>

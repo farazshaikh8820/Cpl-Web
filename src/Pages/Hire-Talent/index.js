@@ -17,7 +17,7 @@ const HireTalent = () => {
                     </div>
                 </div>
                 <div className='explore-sb'>
-                    <div className='container flex justify-center'>
+                    <div className='container flex justify-center overflow-visible'>
                         <div className='explore-form'>
                             <form className='mform'>
                                <h3>Type of hire</h3>

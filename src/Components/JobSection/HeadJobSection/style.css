@@ -58,3 +58,32 @@
     padding-left: 21px;
     /* border-right: 1px solid black; */
 }
+
+/* -------------------------------Tablet View--------------------------------- */
+@media screen and (max-width: 768px) {
+    .job-search-feild {
+        background-color: white;
+        width: fit-content;
+        padding-left: 10px;
+        border-radius: 10px;
+        padding-right: 5px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
+}
+/* -------------------------------Tablet View ends----------------------------- */
+
+/* -------------------------------Mobile View ----------------------------- */
+@media screen and (max-width:320px) {
+    .job-search-feild{
+        gap: 11px;
+        display: flex;
+        flex-direction: column;
+        background: #3F2D50;
+        width: 300px;
+    }
+    
+}
+/* -------------------------------Mobile View ends----------------------------- */

@@ -1,17 +1,15 @@
-
-
 /*                   slicky                     */
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
 
 /*                   Heading                    */
-.Carousel{
+.Carousel {
     padding: 90px 0px;
     background-color: #EFF0F0;
 }
 
-.MuiContainer-root.MuiContainer-maxWidthLg{
+.MuiContainer-root.MuiContainer-maxWidthLg {
     width: 630px !important;
     height: 204px !important;
     background-color: white !important;
@@ -22,26 +20,28 @@
     border-radius: 15px;
 }
 
-.Carousel-heading{
+.Carousel-heading {
     text-align: center;
     max-width: 900px;
     margin: 0 auto 48px auto;
     font: bold;
 }
 
-.Carousel-heading .h2{
+.Carousel-heading .h2 {
     font-weight: 700;
 }
-.Carousel-heading .h2 span{
+
+.Carousel-heading .h2 span {
     color: #E37620;
 }
 
 /*                 slider                        */
-.slick-track{
+.slick-track {
     text-align: center !important;
 }
+
 /*                 slider   box                  */
-.MuiContainer-root.MuiContainer-maxWidthLg{
+.MuiContainer-root.MuiContainer-maxWidthLg {
     width: 922px !important;
     height: 360px !important;
     background-color: white !important;
@@ -51,12 +51,59 @@
     justify-content: center;
     border-radius: 15px;
 }
-.slick-track p{
+
+.slick-track p {
     color: #3E3552;
     padding-bottom: 10px;
 }
-.slick-track h3{
+
+.slick-track h3 {
     font: bold;
     padding-bottom: 10px;
 }
-/*                  */
+
+/*-------------------------------Tablet View----------------------------------*/
+@media screen and (max-width: 768px) {
+    .MuiContainer-root.MuiContainer-maxWidthLg {
+        width: 650px !important;
+        background-color: white !important;
+        text-align: end;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 15px;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 0 10px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        height: 290px !important;
+        width: 145px !important;
+    }
+}
+
+/*-------------------------------Tablet View ends-----------------------------*/
+
+
+/* -------------------Mobile-View--------------------------------- */
+
+@media screen and (max-width:320px) {
+    .MuiContainer-root.MuiContainer-maxWidthLg {
+        width: 206px !important;
+        background-color: white !important;
+        text-align: end;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 15px;
+        height: 360px !important;
+        font-size: 10px;
+    }
+}
+
+/* -------------------Mobile-View--------------------------------- */

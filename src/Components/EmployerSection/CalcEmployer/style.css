@@ -9,7 +9,6 @@
     text-align: center;
     gap: 20px;
     justify-content: center;
-    align-items: baseline;
 }
 
 .calc-card {
@@ -33,7 +32,7 @@
 .calc-card p {
     margin-bottom: 20px;
     font-weight: 600;
-    text-align: left;
+    /* text-align: left; */
     width: 347px;
 
 }
@@ -72,3 +71,16 @@
     border-radius: 10px;
     font-weight: 700;
 }
+
+
+/* ----------------Mobile View------------------------- */
+
+@media screen and (max-width:320px) {
+    .calc-card{
+        display: block;
+    }
+    .calc-card p{
+        width: 295px;
+    }
+}
+/* ----------------Mobile View------------------------- */

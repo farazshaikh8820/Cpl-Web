@@ -20,3 +20,16 @@
     list-style: disc;
     font-size: 22px;
 }
+
+/* -------------------------Tablet View------------------------------ */
+@media screen and (max-width:768px) {
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+/* -------------------------Tablet View------------------------------ */

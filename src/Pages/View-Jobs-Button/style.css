@@ -195,3 +195,15 @@
 }
 
 /* -----------------Bottom part ended------------------------ */
+
+  /* -----------------------------tablet-view------------------------------------ */
+  @media screen and (max-width:768px) {
+    .container_viewJob{
+        width: 720px !important;
+        margin: auto;
+
+        padding: 0;
+    }
+
+  }
+  /* -----------------------------tablet-view------------------------------------ */

@@ -17,7 +17,7 @@ const Trending = () => {
         </div>
       </section>
       <Container>
-        <Row>
+        <Row className='main-row-trending'>
           <Col md={8}>
             <Row>
               <Col md={12} className='m-2'>

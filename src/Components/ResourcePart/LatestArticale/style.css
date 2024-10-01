@@ -7,9 +7,22 @@
     padding-left: 20px;
 }
 
-.all-cards{
+.all-cards-latest-articale{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
    
 }
+.la-card{
+    height: 498px;
+    width: 386px;
+}
+/* --------------------------------tablet view-------------------------- */
+@media screen and (max-width:768px) {
+    
+    .la-card{
+        height: 450px !important;
+        width: 303px !important;
+    }
+}
+    /* --------------------------------tablet view-------------------------- */

@@ -16,12 +16,12 @@ const CompareSalary = () => {
                         </div>
                     </div>
                 </div>
-                <div className='explore-sb'>
-                    <div className='container'>
-                        <div className='explore-form'>
-                            <form className='mform'>
-                                <div className='radio-field-wrap'>
-                                    <div className='explore'><b>I want to explore:</b>
+                <div className='explore-sb-cs'>
+                    <div className='container flex justify-center'>
+                        <div className='explore-form-cs'>
+                            <form className='mform-cs'>
+                                <div className='radio-field-wrap-cs'>
+                                    <div className='explore-cs'><b>I want to explore:</b>
                                         <label>
                                             <input type='radio' name='exploreOption' value='earn' />
                                             How much I can earn
@@ -32,10 +32,10 @@ const CompareSalary = () => {
                                         </label>
                                     </div>
                                 </div>
-                                <div className='Feild-part'>
-                                    <input type='text' placeholder='Job Location' className='Job'></input>
-                                    <input type='text' placeholder='Job Title' className='Job'></input>
-                                    <div className='job-btn'>
+                                <div className='Feild-part-cs'>
+                                    <input type='text' placeholder='Job Location' className='Job-cs'></input>
+                                    <input type='text' placeholder='Job Title' className='Job-cs'></input>
+                                    <div className='job-btn-cs'>
                                         <button type='text' className='mbtn'> Search </button>
                                     </div>
                                 </div>

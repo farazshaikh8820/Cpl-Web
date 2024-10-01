@@ -59,3 +59,25 @@
 }
 
 
+/* -----------------------Tablet view------------------------------- */
+@media screen and (max-width:768px) {
+    .row{
+        --bs-gutter-x: 0px;
+    }
+}
+/* -----------------------Tablet view------------------------------- */
+/* -----------------------Tablet view------------------------------- */
+@media screen and (max-width:320px) {
+    .About-Content{
+        margin-left: 0px;
+        height: 450px;
+    }
+    .Carrer{
+        overflow-x: hidden;
+    }
+    .ceo-image{
+        height: 365px;
+    }
+}
+/* -----------------------Tablet view------------------------------- */
+

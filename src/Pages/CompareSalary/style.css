@@ -25,14 +25,16 @@
 }
 /* form part */
 
-.explore-form{
+.explore-form-cs{
     margin-top: -100px;
     z-index: 1;
     position: relative;
     border-radius: 10px;
+    width: 1010px;
+    display: flex;
 }
 
-.mform{
+.mform-cs{
     flex: 0 0 100%;
     min-height: 160px;
     border-radius: 8px;
@@ -45,21 +47,23 @@
     align-items: baseline;
 }
 
-.explore{
+
+
+.explore-cs{
     display: flex;
     gap: 30px;
     padding-bottom: 20px;
 }
 
-.explore b{
+.explore-cs b{
     font-weight: 700;
 }
 
-.Feild-part{
+.Feild-part-cs{
     display: flex;
     gap: 20px;
 }
-.Job{
+.Job-cs{
     padding: 0px 100px;
     border-radius: 5px;
 }
@@ -102,7 +106,7 @@ input[type="radio"] {
     gap: 16px;
   }
   
-  .jobs{
+  .jobs-cs{
     color: #11394d;
     font-size: 16px;
     line-height: 150%;
@@ -113,3 +117,24 @@ input[type="radio"] {
     border-radius: 32px;
     padding: 8px 16px;
   }
+
+  /* -----------------------------tablet-view------------------------------------ */
+  @media screen and (max-width:768px) {
+    .explore-form-cs{
+
+    }
+    .mform-cs{
+      align-items: center;
+    }
+    .Feild-part-cs{
+      flex-direction: column;
+    }
+    .Job-cs{
+      padding: 20px 100px;
+    }
+    .job-btn-cs{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  /* -----------------------------tablet-view------------------------------------ */

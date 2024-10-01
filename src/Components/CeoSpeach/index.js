@@ -15,7 +15,7 @@ const CeoSpeach = () => {
                 </div>
                 {/* ceo-speach */}
                 <div className='Ceo-speach '>
-                    <h2 className='h2 '>"It's all about<br/>the people."</h2>
+                    <h2 className='h2 '>"It's all about the people."</h2>
                     <div className='speach-author my-12'>- Ger Fitzgerald, CEO Morgan McKinley</div>
                     <p>We put our people first, so our people go further. Join our team at Morgan McKinley and together we’ll go way beyond above and beyond.</p>
                     

@@ -62,3 +62,15 @@
 .InvestingTime{
     padding-bottom: 90px;
 }
+
+/* -------------------------------Tablet View--------------------------------- */
+@media screen and (max-width: 768px) {
+    .Investing-all-cards {
+        display: flex;
+        justify-content: space-around;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+    
+}
+/* -------------------------------Tablet View ends----------------------------- */

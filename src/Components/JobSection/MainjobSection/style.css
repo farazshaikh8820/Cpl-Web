@@ -34,6 +34,12 @@
 
 /* Cards part here */
 
+.job-all-cards{
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+}
+
 .ljcard{
     box-shadow: 0px 0px 8px 0px rgba(62, 53, 82, 0.16);
     border-radius: 8px;
@@ -111,3 +117,12 @@
     text-decoration: none;
     
 }
+
+/* -------------------------------Mobile View ----------------------------- */
+@media screen and (max-width:320px) {
+    .ljcard{
+        flex: 0 0 300px;
+    }
+    
+}
+/* -------------------------------Mobile View ends----------------------------- */

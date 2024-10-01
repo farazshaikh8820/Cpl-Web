@@ -1,4 +1,5 @@
 import React from 'react'
+import './style.css'
 import TaImageRight from '../../../Assets/Images/sc-mobile-ie.webp'
 import { Link } from 'react-router-dom'
 const BottomJobSection = () => {
@@ -21,9 +22,9 @@ const BottomJobSection = () => {
             {/* -----------------------Footer here--------------------- */}
             <div className='footer-nav pb-10'>
                 <div className='container'>
-                    <div className='footer-parent text-black flex justify-between'>
+                    <div className='footer-parent'>
                     <div className='footer-cp'>@ 2024 Saanvi Nexus</div>
-                        <ul className='flex gap-10'>
+                        <ul className='bottom-job-ul'>
                             <li>Employers</li>
                             <li>Jobs</li>
                             <li>Resources</li>

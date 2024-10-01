@@ -10,12 +10,14 @@ const HeroResource = () => {
         </div>
       </div>
       <div className='articale-wrapper'>
-        <div className='container flex gap-3'>
+        <div className='container'>
+          <div className='hero-all-input'>
           <input type='text' placeholder='Topic' id='topic'></input>
           <input type='text' placeholder='Content Type' id='Content-Type'></input>
           <button type='text' className='mbtn'>Filter</button>
           <button type='text' className='template-btn'>Templates</button>
-          <input type='text' placeholder='Search' id='Content-Type' className='ml-12'></input>
+          <input type='text' placeholder='Search' id='Content-Type' className='ml-6'></input>
+          </div>
         </div>
       </div>
     </>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const MaiNavbar = () => {
   return (
     <>
-      <div className='mainNavbar w-[800px] m-auto h-[590px] flex items-center'>
+      <div className='mainNavbar'>
         <div className='mainNavbar-content'>
           <h2 className='h text-[68px] leading-[115%] mb-[50px] flex justify-center text-center'><b>Talent Services Beyond Expectations.</b></h2>
           <div className='mainNavbar-buttons flex justify-center font-bold gap-6'>
