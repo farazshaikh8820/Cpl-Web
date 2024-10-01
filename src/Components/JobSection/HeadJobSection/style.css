@@ -76,7 +76,7 @@
 /* -------------------------------Tablet View ends----------------------------- */
 
 /* -------------------------------Mobile View ----------------------------- */
-@media screen and (max-width:320px) {
+@media screen and (max-width:450px) {
     .job-search-feild{
         gap: 11px;
         display: flex;

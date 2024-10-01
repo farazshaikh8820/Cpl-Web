@@ -119,7 +119,7 @@
 }
 
 /* -------------------------------Mobile View ----------------------------- */
-@media screen and (max-width:320px) {
+@media screen and (max-width:450px) {
     .ljcard{
         flex: 0 0 300px;
     }

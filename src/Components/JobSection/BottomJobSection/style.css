@@ -9,7 +9,7 @@
 }
 
 /* ---------------------Mobile view----------------------- */
-@media screen and (max-width:320px) {
+@media screen and (max-width:450px) {
     .footer-parent{
         display: flex;
         flex-direction: column;
