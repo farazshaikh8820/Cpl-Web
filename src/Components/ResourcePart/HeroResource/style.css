@@ -47,6 +47,15 @@
     margin-right: 20px;
     padding: 10px;
 }
+/* btn filter */
+.filter-hero-all-input{
+    margin-right: 25px;
+}
+
+/* seacrh bar  */
+.search-hero-all-inputs{
+    margin-left: 24px;
+}
 
 .template-btn{
     border: 1px solid #d83f63;
@@ -64,11 +73,26 @@
     color: white;
 }
 
+/*----------------------------------- Tablet view------------------------------------------- */
 @media screen and (max-width: 768px) {
     .hero-all-input{
         display: flex;
         gap: 10px;
         flex-wrap: wrap;
     }
-    
 }
+/*----------------------------------- Tablet view ends-------------------------------------- */
+
+/*----------------------------------- Mobile view------------------------------------------- */
+@media screen and (max-width:450px) {
+    .hero-all-input{
+        justify-content: center;
+    }
+    .filter-hero-all-input{
+        margin-right: 0px;
+    }
+    .search-hero-all-inputs{
+        margin-left: 0px;
+    }
+}
+/*----------------------------------- Mobile view ends-------------------------------------- */

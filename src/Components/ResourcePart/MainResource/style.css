@@ -116,6 +116,15 @@
     border-radius: 8px;
 }
 
+.bottom-img{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom-img button{
+    width: fit-content;
+}
+
 /*-----------------------------------Tablet view----------------------------------------- */
 
 @media screen and (max-width:768px) {
@@ -136,8 +145,23 @@
 /*-----------------------------------Mobile view ------------------------------------- */
 @media screen and (max-width:450px) {
     .top-img{
-        width: 300px;
+        width: 375px;
     }
-    
+    .main-resource .col-md-12{
+        display: flex;
+        justify-content: center;
+    }
+    .feature-Right-bottom{
+        width: 440px;
+        left: 0;
+    }
+    .view-header{
+            display: flex;
+            justify-content: center;
+    }
+    .main-resource-frb{
+        width: 86%;
+    }
+
 }
 /*-----------------------------------Mobile view end------------------------------------- */

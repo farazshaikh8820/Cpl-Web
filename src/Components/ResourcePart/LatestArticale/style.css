@@ -24,5 +24,20 @@
         height: 450px !important;
         width: 303px !important;
     }
+    .all-cards-latest-articale{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
     /* --------------------------------tablet view-------------------------- */
+
+    /* --------------------------------Mobile view-------------------------- */
+    @media screen and (max-width:450px) {
+        .view-head{
+            display: flex;
+            justify-content: center;
+        }
+        
+    }
+    /* --------------------------------Mobile view ends-------------------------- */

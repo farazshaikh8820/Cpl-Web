@@ -123,6 +123,14 @@
     .ljcard{
         flex: 0 0 300px;
     }
-    
+    .job-all-cards{
+        justify-content: center;
+    }
+    .heading-part-left h1{
+        font-size: 25px;
+    }
+    .mainjob{
+        justify-content: space-around;
+    }
 }
 /* -------------------------------Mobile View ends----------------------------- */

@@ -7,6 +7,7 @@ const CalcEmployer = () => {
         <>
             <div className='calc-employer'>
                 <div className='container'>
+                    <div className='calc-card-wrap'>
                     <div className='calc-card'>
                         <div className='calc-content'>
                             <h2>2024 Salary Guide</h2>
@@ -17,6 +18,7 @@ const CalcEmployer = () => {
                             <img src={TaImageRight} />
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
             <div className='ArrFreeConsultans'>

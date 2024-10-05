@@ -1,4 +1,5 @@
 import React from 'react'
+import './style.css'
 import TaImageRight from '../../../Assets/Images/sc-mobile-ie.webp'
 import { Link } from 'react-router-dom'
 const CalcPart = () => {
@@ -6,6 +7,7 @@ const CalcPart = () => {
     <>
     <div className='calc-employer'>
                 <div className='container'>
+                    <div className='calc-card-wrap'>
                     <div className='calc-card'>
                         <div className='calc-content'>
                             <h2>Looking for real-world salary data?</h2>
@@ -16,6 +18,7 @@ const CalcPart = () => {
                             <img src={TaImageRight} />
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
       

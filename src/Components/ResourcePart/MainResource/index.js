@@ -36,7 +36,7 @@ const MainResource = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col md={12} className='main-resource'>
+                                    <Col md={12} className='main-resource-frb'>
                                        <div className='feature-Right-bottom'>
                                         <div className='bottom-img'>
                                             <img src={BottomRightImage} alt='bottom img'/>

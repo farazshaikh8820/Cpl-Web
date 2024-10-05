@@ -1,20 +1,145 @@
+/* --------------------------------------------Navbar--------------------------------- */
+
+.Navbar-wrapper {
+    height: auto;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000;
+    /* padding-top: 20px; */
+}
+
+.Navbar-wrapper video {
+    position: absolute; /* Video is positioned absolutely to fill the container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the video span the full width */
+    height: 100%; /* Make the video span the full height */
+    object-fit: cover; /* Ensures the video covers the container while maintaining aspect ratio */
+    z-index: -1; /* Ensures the video stays behind the content */
+}
+
+.Navbar-content {
+    padding: 20px 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    z-index: 10;
+}
+
+/* Hamburger */
+.hamburger {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    z-index: 2000;
+    color: darkgray;
+}
+
+/* Add more styling for the menu-open class */
+.menu-open {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #242326;
+    height: 100vh;
+}
+
+.menu-open.show {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+/* Left side menu content */
+.left-side {
+    height: 100vh;
+    width: 100%;
+}
+
+.hamburger-content {
+    padding: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+}
+
+.hamburger-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-hm-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-hm-ul li {
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.left-hm-ul li:hover {
+    font-weight: 700;
+    padding-left: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+/*Tablet-View */
+@media screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+/* Mobile-View */
+@media screen and (max-width: 450px) {
+    .nav-list {
+        display: none;
+    }
+    .mainNavbar h2 {
+        font-size: 48px;
+    }
+    .mainNavbar button {
+        font-size: 12px;
+    }
+    .container{
+        padding: 0px !important;
+    }
+}
+
+
+/* --------------------------------------------mainnavbar---------------------------- */
+
 .mainNavbar {
-    /* width: 800px;
-    margin: auto; */
-    height: 590px;
+    height: 100vh; /* Video takes full height of the screen */
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
+/* .mainNavbar-content {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+} */
 
-.mainNavbar h2 {
+.mainNavbar-content h2 {
     font-size: 60px;
     line-height: 115%;
     margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    color: white;
 }
 
 .mainNavbar-button {
@@ -25,33 +150,27 @@
     background-color: #d83f63;
     text-align: center;
     text-decoration: none;
-    /* Removes the underline */
     border: none;
-    /* Remove default border */
     border-radius: 4px;
-    align-items: center;
     display: flex;
-
+    align-items: center;
 }
 
 .mainNavbar-button:hover {
-    background-color: #d83f63;
-    /* Darker blue on hover */
+    background-color: #c73555;
 }
 
 .mainNavbar-button:active {
-    background-color: #d83f63;
-    /* Even darker blue when clicked */
+    background-color: #b52f49;
 }
 
-/* -------------------Mobile-View--------------------------------- */
-
-@media screen and (max-width:450px) {
-
-    .mainNavbar{
+/* Mobile View */
+@media screen and (max-width: 450px) {
+    .mainNavbar {
         height: 400px;
     }
-    .mainNavbar h2 {
+
+    .mainNavbar-content h2 {
         font-size: 48px;
     }
 
@@ -59,5 +178,3 @@
         font-size: 12px;
     }
 }
-
-/* -------------------Mobile-View--------------------------------- */

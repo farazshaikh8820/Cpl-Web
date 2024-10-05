@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <>
             <NavbarTop />
-            <Navbar />
+            {/* <Navbar /> */}
             <MainNavbar />
             <MainCards />
             <InvestingTime />

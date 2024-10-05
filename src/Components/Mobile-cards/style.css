@@ -8,7 +8,6 @@
     border: 1px solid black;
     box-shadow: 0px 1px 0px 0px;
     border-radius: 15px;
-    display: flex;
 }
 
 .card-content h3 {
@@ -33,7 +32,7 @@
 .card-content:hover {
     background: linear-gradient(180deg, rgba(216, 63, 99, 0) 10.42%, #D83F63 100%), #3E3552;
 }
-
+/* -------------------------------------Tablet View----------------------------------------- */
 @media only screen and (max-width: 768px) {
     .cards {
         display: flex;
@@ -41,3 +40,14 @@
         width: 101%;
     }
 }
+/* -------------------------------------Tablet View ends----------------------------------------- */
+
+/* -------------------------------------Mobile View----------------------------------------- */
+@media screen and (max-width:450px) {
+    .cards{
+        display: flex;
+        justify-content: center;
+        /* width: 300px; */
+    }
+}
+/* -------------------------------------Mobile View ends-------------------------------------*/

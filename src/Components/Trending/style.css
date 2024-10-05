@@ -207,9 +207,8 @@
         width: 100% !important;
         justify-content: center;
         display: flex;
-/* overflow-x: hidden; */
     }
-    /* -----------------calc----------- */
+
 }
 
 /* --------------------------------MOBILE VIEW---------------------------- */
@@ -221,8 +220,17 @@
         gap: 0px;
         height: 760px;
     }
-    /* body{
-        overflow-x: hidden;
-    } */
+    .col-md-8{
+        /* flex: none !important; */
+        width: 88% !important;
+    }
+    .col-md-6{
+        flex: none !important;
+        width: 100% !important;
+    }
+    .col-md-4{
+        flex: none !important;
+        width: 100% !important;
+    }
 }
 /* --------------------------------MOBILE VIEW---------------------------- */

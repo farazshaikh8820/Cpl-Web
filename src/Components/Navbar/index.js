@@ -20,7 +20,7 @@ const Navbar = () => {
     <>
       <div className='Navbar-wrapper'>
         <div className='Navbar-content '>
-          <div className='container flex justify-around'>
+          <div className='container flex justify-around absolute z-50'>
             <div className='hamburger ' onClick={handleTogle}>
               {togle ?   <CloseIcon/> :<MenuIcon /> }
             </div>

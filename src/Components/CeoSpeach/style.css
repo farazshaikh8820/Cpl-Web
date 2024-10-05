@@ -2,15 +2,12 @@
 
 .Ceo{
     background-color: #3E3552;
+    padding: 40px 0px;
 }
 .ceo-speach-image{
     display: flex;
     padding: 60px;
-   gap: 50px;
-}
-.ceo-image{
-    width: 800px;
-    height: 514px;
+   /* gap: 50px; */
 }
 .ceo-image img{
     height: 100%;
@@ -31,9 +28,9 @@
     color: white;
     padding-bottom: 20px;
 }
-.container{
+/* .container{
     overflow-x: hidden;
-}
+} */
 
 /* -------------------------------Tablet View--------------------------------- */
 @media screen and (max-width: 768px) {
@@ -62,8 +59,16 @@
 
 @media screen and (max-width:450px) {
     .ceo-speach-image{
-        padding: 0;
+        padding: 90px;
         gap: 0;
+    }
+    .Ceo-speach{
+        display: block;
+        padding-left: 20px;
+    }
+    .Ceo-speach span{
+        width: fit-content;
+        display: block;
     }
 }
 /* --------------------------------Mobile View--------------------------------- */
